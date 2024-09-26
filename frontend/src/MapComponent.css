@@ -1,0 +1,17 @@
+/* src/MapComponent.css */
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* ความสูงของ viewport */
+    width: 100vw; /* ความกว้างของ viewport */
+    padding: 50px; /* เว้นขอบด้านใน */
+    box-sizing: border-box; /* ให้ padding นับรวมในความกว้างและสูง */
+  }
+  
+  #map {
+    height: calc(100% - 100px); /* ปรับความสูงโดยลดจาก padding */
+    width: calc(100% - 100px); /* ปรับความกว้างโดยลดจาก padding */
+    background-color: #f0f0f0; /* สีพื้นหลังสำหรับแผนที่ (สามารถเปลี่ยนได้) */
+  }
+  
